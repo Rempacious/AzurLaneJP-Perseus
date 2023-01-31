@@ -24,6 +24,7 @@ jobs:
                     
       - uses: marvinpinto/action-automatic-releases@latest
         with:
+          permissions: write-all
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
           draft: true
