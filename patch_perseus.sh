@@ -26,12 +26,12 @@ chmod +x apkeep
 
 # Download Azur Lane
 download_azurlane () {
-    if [ ! -f "com.YoStarJP.AzurLane.xapk" ]; then
+    if [ ! -f "com.YoStarJP.AzurLane" ]; then
     ./apkeep -a com.YoStarJP.AzurLane .
     fi
 }
 
-if [ ! -f "com.YoStarJP.AzurLane.xapk" ]; then
+if [ ! -f "com.YoStarJP.AzurLane" ]; then
     echo "Get Azur Lane apk"
     download_azurlane
     unzip -o com.YoStarJP.AzurLane.xapk -d AzurLane
