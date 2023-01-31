@@ -24,10 +24,9 @@ jobs:
                     
       - uses: marvinpinto/action-automatic-releases@latest
         with:
-          permissions: write-all
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
           draft: true
-          title: "Perseus Release v${{ env.PERSEUS_VERSION }}"
+          title: "Perseus Release JP"
           files: |
             build/*.apk
