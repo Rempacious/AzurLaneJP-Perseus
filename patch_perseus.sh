@@ -31,7 +31,7 @@ download_azurlane () {
     fi
 }
 
-if [ ! -f "com.YoStarJP.AzurLane.apk" ]; then
+if [ ! -f "com.YoStarJP.AzurLane.xapk" ]; then
     echo "Get Azur Lane apk"
     download_azurlane
     unzip -o com.YoStarJP.AzurLane.xapk -d AzurLane
