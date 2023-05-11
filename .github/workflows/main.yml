@@ -27,6 +27,6 @@ jobs:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
           draft: true
-          title: "Perseus Release v${{ env.PERSEUS_VERSION }}"
+          title: "Perseus Release"
           files: |
             build/*.apk
